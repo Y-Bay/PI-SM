@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pism"
+version = "1.0.0"
+description = "Physics-Informed Safety Margins for LinDistFlow voltage constraints"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandapower>=2.13"]
+
+[tool.setuptools]
+packages = ["pism"]
